@@ -19,7 +19,7 @@ el cual me permitió poner a prueba y afianzar mis conocimientos, aplicando lo a
 
 ## Introducción
 
-*Como usuario deberás agregar nombres mediante un campo de texto y un botón **“Adicionar”**.*
+*Como usuario deberás agregar nombres mediante un campo de texto y un botón **“Añadir”**.*
 *Los nombres ingresados se mostrarán en una lista visible en la página y, al finalizar, un botón **“Sortear Amigo”** seleccionará uno de los nombres de forma aleatoria, mostrando el resultado en pantalla.*
 
 *A continuación encontrarás información sobre la instalación, dependencias, cómo ejecutar el proyecto y posibles problemas o soluciones.*
@@ -36,13 +36,13 @@ http://
 
 *(Más adelante se colocará aquí el enlace a GitHub Pages o al despliegue correspondiente).*
 
-*Aquí encontrará una pantalla que le permitirá ingresar nombres de amigos en una lista para luego realizar un sorteo aleatorio y determinar quién es el “amigo secreto”.*
+*Aquí encontrará una pantalla que le permitirá ingresar nombres de amigos en una lista para luego realizar un sorteo aleatorio y determinar quién es el “Amigo Secreto”.*
 
 ---
 
 ### Paso 2: Agregar amigos
 
-*El usuario escribirá el nombre de un amigo en el campo de texto y lo agregará a la lista visible al hacer clic en **“Adicionar”**.*
+*El usuario escribirá el nombre de un amigo en el campo de texto y lo agregará a la lista visible al hacer clic en **“Añadir”**.*
 *Si el campo de texto está vacío, el programa mostrará una alerta solicitando un nombre válido.*
 
 ---
@@ -80,7 +80,7 @@ http://
 
 * **HTML5**
 * **CSS3**
-* **JavaScript (Vanilla)**
+* **JavaScript**
 
 ---
 
