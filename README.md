@@ -1,63 +1,104 @@
-# Challenge del Amigo Secreto.
-_Bienvenido al repositorio de la Plataforma del Amigo Secreto._ 
-_Si bien la Funcionalidad hasta el momento es limitada, nos encontramos trabajando tanto para extender la Plataforma como para mejorar sus Funcionalidades._
-_Tanto si deseas formar parte del Equipo de Desarrollo, como si no, espero que la Experiencia sea de tu agrado._
-## Comenzando con la introducción.
-_Este Trabajo comenzó a partir del Desafio "Challenge Amigo Secreto",_
-_el cuál me permitía poner a prueba y afianzar mis conocimientos, aplicando lo aprendido y fortaleciendo mis habilidades de programación._
+# Challenge del Amigo Secreto
 
-_Mi Función aquí es actuar como Anfitrión y proporcionarte una descripción clara y detallada del propósito, estructura y uso del código desarrollado en el Repositorio._
-_Si estás interasado en entender y trabajar con este código, estas en el lugar adecuado._
+*Bienvenido al repositorio de la Plataforma del Amigo Secreto.*
+*Si bien la funcionalidad actual es limitada, estamos trabajando para extender la plataforma y mejorar sus características.*
 
-_A continuación te brindo información sobre la instalación, dependencias, cómo ejecutar el proyecto, y posibles problemas o soluciones._
+*Tanto si deseas formar parte del equipo de desarrollo como si no, espero que tu experiencia aquí sea de tu agrado.*
 
-_Aquí encontrarás toda la información referente al uso de la plataforma._
-### Paso 1:
-_Iniciar GIT BASH en la carpeta en donde se clonará el Repositorio Remoto de la nube._
+---
 
-### Paso Alternativo:
-_Si no has usado anteriormente GitHub, deberás Introducir los siguientes Comandos:_
-```
-git config --global user.name "[nombre del usuario]"
-```
-```
-git config --global user.email "[email del usuario]"
-```
-_No es necesario usar `"git init"` aqui porque iniciarías un Repositorio Local y Clonarías el Repositorio Remoto dentro._
-### Paso 2: Clonar el repositorio remoto.
-_Primero dirijase al Repositorio Remoto:_
-```
-https://github.com/NicoGallardo1986/ProyectoPracticas3ro
-```
-_Luego, dentro del proyecto, haga clic en el botón CODE y copie con el botón señalado. Antes debería haber aceptado la invitación._
+## Comenzando con la experiencia
 
-<img width="500" alt="imagen" src="https://github.com/user-attachments/assets/c818bb73-8ca5-48d5-83d6-81d65b782c6f" />
+*Este trabajo comenzó a partir del desafío **“Challenge Amigo Secreto”**,
+el cual me permitió poner a prueba y afianzar mis conocimientos, aplicando lo aprendido y fortaleciendo mis habilidades de programación.*
 
-<h4 align="center">Una vez clonado el repositorio, podrá trabajar con el script sql de la base de datos, ya sea para importar el que esté en la nube, con los avances del resto de sus compañeros, o bien para reemplazar con el nuevo script resultante de la exportación, una vez que haya hecho sus respectivos avances</h4>
+*Mi función aquí es actuar como anfitrión y proporcionarte una descripción clara y detallada del propósito, estructura y uso del código desarrollado en este repositorio.*
+*Si estás interesado en entender y trabajar con este código, estás en el lugar adecuado.*
 
-### Paso 3: Sincronizar los Datos.
-_Cuando tenga el nuevo script sql de la base de datos (luego de Realizar las modificaciones), coloque éste dentro de la carpeta del Repositorio Local, REEMPLAZANDO LA VERSIÓN ANTERIOR, y con Git Bash (ejecutado dentro de la Carpeta) deberá sincronizar con el respositorio en la nube._
-_Los comandos a utilizar para subir cambios serán:_
+---
 
-``` 
-Git add .
-```
-_O bien…_   
-``` 
-git add “[Nombre del Archivo Exportado]”
-```
-_seguido de:_
-```
-Git commit -m “comentario significativo”
-```
-```
-Git push
-```
-_Ahora, para verificar los cambios, vuelva a la pagina del Repositorio Remoto y controle que figuren las modificaciones._
+## Introducción
 
-<h4 align="center">Con esto, quedaría resuelta esta Etapa Individual del Trabajo Colaborativo!</h4>
+*Como usuario deberás agregar nombres mediante un campo de texto y un botón **“Adicionar”**.*
+*Los nombres ingresados se mostrarán en una lista visible en la página y, al finalizar, un botón **“Sortear Amigo”** seleccionará uno de los nombres de forma aleatoria, mostrando el resultado en pantalla.*
 
-_En caso de necesitarlo, el comando a utilizar para traer cambios desde el repositorio remoto en la nube será:_
+*A continuación encontrarás información sobre la instalación, dependencias, cómo ejecutar el proyecto y posibles problemas o soluciones.*
+
+---
+
+### Paso 1: Ingresar a la página
+
+*En primer lugar, el usuario deberá ingresar a la siguiente dirección:*
+
 ```
-Git pull
+http://
 ```
+
+*(Más adelante se colocará aquí el enlace a GitHub Pages o al despliegue correspondiente).*
+
+*Aquí encontrará una pantalla que le permitirá ingresar nombres de amigos en una lista para luego realizar un sorteo aleatorio y determinar quién es el “amigo secreto”.*
+
+---
+
+### Paso 2: Agregar amigos
+
+*El usuario escribirá el nombre de un amigo en el campo de texto y lo agregará a la lista visible al hacer clic en **“Adicionar”**.*
+*Si el campo de texto está vacío, el programa mostrará una alerta solicitando un nombre válido.*
+
+---
+
+### Paso 3: Visualizar la lista
+
+*Los nombres ingresados aparecerán en una lista debajo del campo de entrada.*
+
+---
+
+### Paso 4: Sorteo aleatorio
+
+*Al hacer clic en el botón **“Sortear Amigo”**, se seleccionará aleatoriamente un nombre de la lista y se mostrará en la página.*
+
+---
+
+## Funcionalidades extra
+
+*El programa cuenta con varios niveles de validación, entre ellos:*
+
+* *Si se introducen caracteres no válidos (símbolos o números), el programa mostrará una alerta.*
+* *Si se intenta sortear con una lista vacía, el programa mostrará un mensaje en pantalla.*
+* *Al realizar el sorteo, la lista de nombres ingresados se limpia automáticamente de la pantalla.*
+
+---
+
+## Funcionalidades a incorporar
+
+* *Agregar un botón para reiniciar el proceso.*
+* *Incorporar una ventana de resultados que muestre sucesivos sorteos, añadiendo una validación para evitar que se repitan nombres ya sorteados.*
+
+---
+
+## Tecnologías utilizadas
+
+* **HTML5**
+* **CSS3**
+* **JavaScript (Vanilla)**
+
+---
+
+## Instalación y ejecución
+
+1. **Clonar el repositorio:**
+
+   ```bash
+   git clone <URL-del-repositorio>
+   ```
+
+2. **Abrir el proyecto:**
+   Simplemente abrir el archivo `index.html` en el navegador.
+
+---
+
+## Licencia
+
+*Este proyecto se distribuye bajo la licencia MIT.*
+
+---
