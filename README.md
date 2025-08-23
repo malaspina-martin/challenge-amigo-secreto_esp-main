@@ -29,12 +29,9 @@ el cual me permitió poner a prueba y afianzar mis conocimientos, aplicando lo a
 ### Paso 1: Ingresar a la página
 
 *En primer lugar, el usuario deberá ingresar a la siguiente dirección:*
+[*Proyecto del Amigo Secreto*](https://malaspina-martin.github.io/challenge-amigo-secreto_esp-main/)
 
-```
-http://
-```
-
-*(Más adelante se colocará aquí el enlace a GitHub Pages o al despliegue correspondiente).*
+<img height="300" alt="Captura de pantalla 2025-08-22 204347"  src="https://github.com/user-attachments/assets/5989e44c-8715-4498-a5bc-6df4c07717e7" />
 
 *Aquí encontrará una pantalla que le permitirá ingresar nombres de amigos en una lista para luego realizar un sorteo aleatorio y determinar quién es el “Amigo Secreto”.*
 
@@ -43,6 +40,9 @@ http://
 ### Paso 2: Agregar amigos
 
 *El usuario escribirá el nombre de un amigo en el campo de texto y lo agregará a la lista visible al hacer clic en **“Añadir”**.*
+
+<img width="350" alt="Captura de pantalla 2025-08-22 204358" src="https://github.com/user-attachments/assets/6afe7135-ca19-473c-b10c-41eaec90019a" />
+
 *Si el campo de texto está vacío, el programa mostrará una alerta solicitando un nombre válido.*
 
 ---
@@ -51,11 +51,15 @@ http://
 
 *Los nombres ingresados aparecerán en una lista debajo del campo de entrada.*
 
+<img width="350" alt="Captura de pantalla 2025-08-22 205944" src="https://github.com/user-attachments/assets/64945599-efd8-45a4-82f3-88cf6fdafa23" />
+
 ---
 
 ### Paso 4: Sorteo aleatorio
 
 *Al hacer clic en el botón **“Sortear Amigo”**, se seleccionará aleatoriamente un nombre de la lista y se mostrará en la página.*
+
+<img width="300" alt="Captura de pantalla 2025-08-22 210315" src="https://github.com/user-attachments/assets/83ef1fc5-b52d-45df-a9e1-26453bb3e75a" />
 
 ---
 
